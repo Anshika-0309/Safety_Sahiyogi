@@ -1,0 +1,57 @@
+.homepage{
+    display:flex;
+    flex-direction: column;
+}
+
+.homepage__top
+{
+    display:flex;
+    align-items: center;
+}
+
+.homepage__topLeft
+{
+    height: 100 vh;
+    width : 50%;
+}
+.homepage__topLeft_img
+{
+    width : 200%;
+    height: 100px;
+    object-fit: cover;
+}
+.homepage__topRight
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100vh;
+}
+.homepage_topRight-title
+{
+font-size: 4.5rem;
+}
+.homepage_topRight-subtitle
+{
+    font-size : 2 rem;
+}
+.homepage__topRight-btns
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.homepage__topRight-btns button
+{
+width: 20rem;
+margin-bottom: 1rem;
+}
+.btn_primary
+{
+    background-color: aliceblue;
+}
+.homepage__right_policies
+{
+    font-size:0.7rem;
+    color: var(--grey);
+}
